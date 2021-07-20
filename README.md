@@ -1,5 +1,9 @@
 # Crop-Forecasting-Using-Machine-Learning-Random-Forest-Classifier-
 Based on Ratio of Nitrogen content in soil, Ratio of Phosphorous content in soil, Ratio of Potassium content in soil, Temperature in degree Celsius, Relative Humidity, PH value of the soil, Rainfall, Crop  Harvest models are prepared which crop should be cultivation. 
+
+Machine Learning Model: Random Forest Classifier.
+Dataset:https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
+
 # Output:
 ![Screenshot (1499)](https://user-images.githubusercontent.com/66699500/126384009-d4f43584-7066-4377-912b-2ce16e1bce92.png)
 ![Screenshot (1504)](https://user-images.githubusercontent.com/66699500/126384063-977c5ac9-583b-4adb-84f0-9bc6c9cc7cec.png)
