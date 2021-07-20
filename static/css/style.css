@@ -1,0 +1,316 @@
+body{
+    background-color: gray;
+}
+
+/* **************Navbar*********************** */
+#div_navbar{
+    background-image: url('/static/img/nav_bg.jpg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+#div_navbar .nav-item .nav-link{
+    color: #FFFFFF;
+}
+
+#div_navbar .navbar-brand {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#div_navbar .navbar-brand img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 7px;
+    margin-right: 3px;
+}
+
+#div_navbar .nav-item button{
+    border-radius: 35px;
+}
+
+#navbarSupportedContent{
+    margin-left: 550px;
+}
+
+#navbarSupportedContent .nav-item{
+    margin-left: 50px;
+}
+
+#nav_content{
+    color: #FFFFFF;
+}
+
+#nav_content h3{
+    margin-top: 150px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#nav_content h1{
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-bottom: 10px;
+}
+
+#nav_content h2{
+    padding-bottom: 50px;
+}
+
+#nav_content button{
+    border-radius: 35px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* ************End Navbar********************* */
+
+/* ******************************************************************************************************** */
+#non_Carousels{
+	height: 200px;
+	/* background-color: aqua; */
+	background-image: url("https://images.unsplash.com/photo-1608989407406-50958d1fa86c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+
+#scholarship_facilities{
+	background-color: #012C20;
+	opacity: .9;
+	width: 400px;
+	height: 170px;
+	display: inline-block;
+	margin-top: 29px;
+	margin-left: 140px;
+	color: #FFFFFF;
+}
+
+#scholarship_facilities h1{
+	font-size:25px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#scholarship_facilities h4{
+	font-size: 15px;
+	width: 300px;
+	margin-left: 20px;
+}
+
+#scholarship_facilities svg{
+	margin-left: 310px;
+	color: #FEC20B;
+
+}
+
+#skilled_lecturers{
+	background-color: #012C20;
+	opacity: .9;
+	width: 400px;
+	height: 170px;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+#skilled_lecturers h1{
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#skilled_lecturers h4{
+	font-size: 15px;
+	width: 300px;
+	margin-left: 20px;
+}
+
+#skilled_lecturers svg{
+	margin-left: 310px;
+	color: #FEC20B;
+
+}
+
+#book_library{
+	background-color: #012C20;
+	opacity: .9;
+	width: 400px;
+	height: 170px;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+#book_library h1{
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#book_library h4{
+	font-size: 15px;
+	width: 300px;
+	margin-left: 20px;
+}
+
+#book_library svg{
+	margin-left: 310px;
+	color: #FEC20B;
+}
+/* ******************************************************************************************************** */
+
+/* *********************************************************Contact_us_and_information************************************************ */
+
+#contact_us_and_information{
+	/* background-color: aqua; */
+	width: 100%;
+	height: 600px;
+}
+
+#contact_us_and_information .card{
+	margin-top: 15px;
+	border: none;
+}
+
+#contact_us_and_information button{
+	background-color: #012C20;
+	text-transform: uppercase;
+	margin-left: 13px;
+}
+
+#contact_us{
+	/* background-color: blue; */
+	width: 68%;
+	height: 500px;
+	display: inline-block;
+	/* margin-left: 35px; */
+}
+
+#contact_us h1{
+	color: #012C20;
+	margin-top: 50px;
+}
+
+#contact_us hr{
+	width: 15%;
+	height: 5px;
+	color: #FEC20B;
+	border-radius: 5px;
+	opacity: 1;	
+}
+
+#information{
+	/* background-color: brown; */
+	width: 29%;
+	height: 500px;
+	display: inline-block;
+	position: absolute;
+}
+
+#information h1{
+	color: #012C20;
+	margin-top: 50px;
+}
+
+#information h2{
+	color: #012C20;
+	border: 1px solid #E8EBEE;
+	margin-top: 50px;
+	font-size: 20px;
+	padding: 15px;
+}
+#information hr{
+	width: 10%;
+	height: 5px;
+	color: #FEC20B;
+	border-radius: 5px;
+	opacity: 1;
+}
+
+#information svg{
+	color: #FEC803;
+	margin-right: 8px;
+}
+/* *********************************************************end Contact_us_and_information************************************************ */
+
+/* *********************************************************Footer************************************************ */
+#footer{
+	background-color: #012C20;
+}
+
+#footer #card_footer{
+	background-color: #012C20;
+	border: none;
+	color: #FFFFFF;
+	height: 300px;
+}
+
+#footer #card_footer svg{
+	color: #FEC20B;
+	margin: 8px;
+}
+
+#footer h5{
+	font-size: 30px;
+}
+
+#footer p{
+	font-size: 20px;
+}
+
+#featured_links_footer{
+	background-color: #012C20;
+	border: none;
+}
+
+#featured_links_footer svg{
+	color: #FEC20B;
+}
+
+#information_footer{
+	background-color: #012C20;
+	border: none;
+	width: 300px;
+}
+
+#information_footer svg{
+	color: #FEC20B;
+	margin: 5px;
+}
+
+#photos_footer {
+	background-color: #012C20;
+	/* border: none; */
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#photos_footer img{
+	width: 100px;
+	height: 100px;
+}
+/* *********************************************************end Footer************************************************ */
+/* *********************************************************end Footer_contact_icons************************************************ */
+#footer_contact_icons{
+	background-color: #012C20;
+	color: #FFFFFF;
+}
+
+#footer_contact_icons h2{
+	border: 1px solid #F5F5F5;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	display: inline-block;
+	margin: 5px;
+	opacity: 0.7;
+}
+
+#footer_contact_icons svg{
+	width: 30px;
+	height: 30px;
+}
+/* *********************************************************end Footer_contact_icons************************************************ */
