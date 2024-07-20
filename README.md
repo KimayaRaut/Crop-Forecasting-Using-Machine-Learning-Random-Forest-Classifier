@@ -63,10 +63,14 @@ pip install -r requirements.txt
 ```
 
 ### Step 5: Run the Model Script to Create model.pkl
-```plaintext python model.py```
+```plaintext 
+python model.py
+```
 
 ### Step 6: Start the Flask Server
-```plaintext python app.py```
+```plaintext 
+python app.py
+```
 
 ### Usage
 Ensure the Flask server is running.
