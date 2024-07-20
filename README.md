@@ -32,25 +32,31 @@ cd crop-forecasting](https://github.com/KimayaRaut/Crop-Forecasting-Using-Machin
 Using virtualenv
 
 
-pip install virtualenv
+- pip install virtualenv
 
 
-virtualenv venv
+- virtualenv venv
 
 ### Step 3: Activate the Virtual Environment
 On Windows:
-venv\Scripts\activate
+
+
+- venv\Scripts\
+
+
 On MacOS/Linux:
-source venv/bin/activate
+
+
+- source venv/bin/activate
 
 ### Step 4: Install the Required Packages
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### Step 5: Run the Model Script to Create model.pkl
-python model.py
+- python model.py
 
 ### Step 6: Start the Flask Server
-python app.py
+- python app.py
 
 ### Usage
 Ensure the Flask server is running.
@@ -58,6 +64,7 @@ Open your web browser and navigate to http://127.0.0.1:5000.
 Enter the required environmental parameters (soil nutrient levels, temperature, humidity, pH, rainfall) to get the optimal crop forecast.
 
 ### File Structure
+```plaintext
 crop-forecasting/
 ├── app.py             # Flask application
 ├── model.py           # Script to train and save the machine learning model
@@ -68,6 +75,7 @@ crop-forecasting/
 ├── model.pkl          # Trained machine learning model
 ├── requirements.txt   # Python package dependencies
 └── README.md          # Project documentation
+
 
 # Output:
 ![Screenshot (1499)](https://user-images.githubusercontent.com/66699500/126384009-d4f43584-7066-4377-912b-2ce16e1bce92.png)
