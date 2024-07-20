@@ -1,8 +1,34 @@
-# Crop-Forecasting-Using-Machine-Learning-Random-Forest-Classifier-
-Based on Ratio of Nitrogen content in soil, Ratio of Phosphorous content in soil, Ratio of Potassium content in soil, Temperature in degree Celsius, Relative Humidity, PH value of the soil, Rainfall, Crop  Harvest models are prepared which crop should be cultivation. 
+# Crop Forecasting Using Machine Learning Random Forest Classifier
 
-Machine Learning Model: Random Forest Classifier.
-Dataset:https://www.kaggle.com/atharvaingle/crop-recommendation-dataset
+## Overview
+
+This project is a web application designed to forecast optimal crop types based on soil nutrient levels, temperature, humidity, pH, and rainfall. The application uses Flask for API creation, HTML and CSS for the frontend, and a RandomForestClassifier from sklearn for the machine learning model. The model achieves an accuracy of 98% and aims to assist farmers in making informed agricultural decisions.
+
+## Features
+
+- Forecast optimal crop types based on environmental factors
+- Easy-to-use web interface
+- High accuracy with RandomForestClassifier
+
+## Technologies Used
+
+- Flask (for backend API)
+- HTML/CSS (for frontend)
+- JavaScript
+- scikit-learn (for machine learning model)
+
+## Dataset
+
+The dataset used for training the model is available on Kaggle: [Crop Recommendation Dataset](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset)
+
+## Installation
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/crop-forecasting.git
+cd crop-forecasting
+
 
 # Output:
 ![Screenshot (1499)](https://user-images.githubusercontent.com/66699500/126384009-d4f43584-7066-4377-912b-2ce16e1bce92.png)
