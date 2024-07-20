@@ -29,7 +29,7 @@ The dataset used for training the model is available on Kaggle: [Crop Recommenda
 git clone https://github.com/yourusername/crop-forecasting.git
 cd crop-forecasting
 
-###Step 2: Create a Virtual Environment
+### Step 2: Create a Virtual Environment
 Using virtualenv
 pip install virtualenv
 virtualenv venv
