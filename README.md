@@ -32,31 +32,31 @@ cd crop-forecasting](https://github.com/KimayaRaut/Crop-Forecasting-Using-Machin
 Using virtualenv
 
 
-- pip install virtualenv
+```plaintext pip install virtualenv```
 
 
-- virtualenv venv
+```plaintext virtualenv venv ```
 
 ### Step 3: Activate the Virtual Environment
 On Windows:
 
 
-- venv\Scripts\
+```plaintext venv\Scripts\```
 
 
 On MacOS/Linux:
 
 
-- source venv/bin/activate
+```plaintext source venv/bin/activate```
 
 ### Step 4: Install the Required Packages
-- pip install -r requirements.txt
+```plaintext pip install -r requirements.txt```
 
 ### Step 5: Run the Model Script to Create model.pkl
-- python model.py
+```plaintext python model.py```
 
 ### Step 6: Start the Flask Server
-- python app.py
+```plaintext python app.py```
 
 ### Usage
 Ensure the Flask server is running.
