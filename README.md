@@ -25,7 +25,6 @@ The dataset used for training the model is available on Kaggle: [Crop Recommenda
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/crop-forecasting.git
 cd crop-forecasting
 
@@ -33,6 +32,38 @@ cd crop-forecasting
 Using virtualenv
 pip install virtualenv
 virtualenv venv
+
+### Step 3: Activate the Virtual Environment
+On Windows:
+venv\Scripts\activate
+On MacOS/Linux:
+source venv/bin/activate
+
+### Step 4: Install the Required Packages
+pip install -r requirements.txt
+
+### Step 5: Run the Model Script to Create model.pkl
+python model.py
+
+### Step 6: Start the Flask Server
+python app.py
+
+### Usage
+Ensure the Flask server is running.
+Open your web browser and navigate to http://127.0.0.1:5000.
+Enter the required environmental parameters (soil nutrient levels, temperature, humidity, pH, rainfall) to get the optimal crop forecast.
+
+### File Structure
+crop-forecasting/
+├── app.py             # Flask application
+├── model.py           # Script to train and save the machine learning model
+├── templates/
+│   └── index.html     # HTML file for the frontend
+├── static/
+│   └── styles.css     # CSS file for styling
+├── model.pkl          # Trained machine learning model
+├── requirements.txt   # Python package dependencies
+└── README.md          # Project documentation
 
 # Output:
 ![Screenshot (1499)](https://user-images.githubusercontent.com/66699500/126384009-d4f43584-7066-4377-912b-2ce16e1bce92.png)
