@@ -75,7 +75,7 @@ crop-forecasting/
 ├── model.pkl          # Trained machine learning model
 ├── requirements.txt   # Python package dependencies
 └── README.md          # Project documentation
-
+```
 
 # Output:
 ![Screenshot (1499)](https://user-images.githubusercontent.com/66699500/126384009-d4f43584-7066-4377-912b-2ce16e1bce92.png)
