@@ -32,25 +32,35 @@ cd crop-forecasting](https://github.com/KimayaRaut/Crop-Forecasting-Using-Machin
 Using virtualenv
 
 
-```plaintext pip install virtualenv```
+```plaintext 
+pip install virtualenv
+```
 
 
-```plaintext virtualenv venv ```
+```plaintext 
+virtualenv venv
+```
 
 ### Step 3: Activate the Virtual Environment
 On Windows:
 
 
-```plaintext venv\Scripts\```
+```plaintext 
+venv\Scripts\
+```
 
 
 On MacOS/Linux:
 
 
-```plaintext source venv/bin/activate```
+```plaintext
+source venv/bin/activate
+```
 
 ### Step 4: Install the Required Packages
-```plaintext pip install -r requirements.txt```
+```plaintext 
+pip install -r requirements.txt
+```
 
 ### Step 5: Run the Model Script to Create model.pkl
 ```plaintext python model.py```
