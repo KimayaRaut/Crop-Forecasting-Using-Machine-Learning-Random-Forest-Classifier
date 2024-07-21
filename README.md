@@ -25,8 +25,9 @@ The dataset used for training the model is available on Kaggle: [Crop Recommenda
 
 ### Step 1: Clone the Repository
 
-git clone https:[//github.com/yourusername/crop-forecasting.git
-cd crop-forecasting](https://github.com/KimayaRaut/Crop-Forecasting-Using-Machine-Learning-Random-Forest-Classifier.git)
+```plaintext 
+git clone url
+```
 
 ### Step 2: Create a Virtual Environment
 Using virtualenv
