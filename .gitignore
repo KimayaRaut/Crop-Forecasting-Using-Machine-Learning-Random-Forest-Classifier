@@ -1,6 +1,53 @@
-__pycache__
-.vscode
-.DS_Store
+# Virtual Environment
+venv/
 env/
-.env
+*.env
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.ncb
+*.sw?
+*.suo
+*.pdb
+*.pydevproject
+
+# Logs
+*.log
+
+# Misc
+*.DS_Store
+*.egg
+*.egg-info
+dist/
+build/
+*.gz
+*.tar.gz
+*.zip
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# PyCharm specific
+.idea/
+
+# MacOS specific
+*.DS_Store
+
 model.pkl
