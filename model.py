@@ -36,24 +36,24 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 0)
 
 
-print("X Train Size:",len(X_train))
-print(X_train)
+# print("X Train Size:",len(X_train))
+# print(X_train)
 
 
 
-print("X Test Size:",len(X_test))
-print(X_test)
+# print("X Test Size:",len(X_test))
+# print(X_test)
 
 
 
 
-print("Y Train Size:",len(y_train))
-print(y_train)
+# print("Y Train Size:",len(y_train))
+# print(y_train)
 
 
 
-print("X Test Size:",len(y_test))
-print(y_test)
+# print("X Test Size:",len(y_test))
+# print(y_test)
 
 
 # ## Feature Scaling
@@ -73,7 +73,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 y_pred = classifier.predict(X_test)
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
-accuracy_score(y_test, y_pred)
+print(accuracy_score(y_test, y_pred))
 
 ## Applying k-Fold Cross Validation
 from sklearn.model_selection import cross_val_score
